@@ -8,7 +8,7 @@ TIME_LAPSE =  5 # 5 Seconds between shots
 TIME_LAPSE_PICTURES = 10 # Number of pictures to snap
 
 BURST = 5 #set number of pics to take in burst mode
-PATH = "/home/pi/Desktop/Picamera/captured/"
+PATH = "/home/pi/Desktop/Picamera/captured"
 
 cam = PiCamera()
 cam.resolution = (1024, 768)
