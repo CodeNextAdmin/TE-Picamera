@@ -54,7 +54,6 @@ def slider():
 
 @app.route('/capture', methods=['POST', 'GET'])
 def capture():
-    data = request.data
     
     now = datetime.now()
     date_time = now.strftime("%m-%d-%Y-%H:%M:%S")
